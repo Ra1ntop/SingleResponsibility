@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.ra1n.top'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'io.github.classgraph:classgraph:4.8.165'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
