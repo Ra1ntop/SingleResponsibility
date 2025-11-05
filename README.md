@@ -7,7 +7,7 @@ The goal is to compare two approaches:
 | Module | Description |
 |--------|------------|
 | `wrong-without-spring` | SRP is violated — one class handles business logic, email template building, and email sending |
-| `right-without-spring` | Correct SRP — responsibilities are separated into services, a template registry, and an email sender |
+| `without-spring` | Correct SRP — responsibilities are separated into services, a template registry, and an email sender |
 
 ---
 
@@ -58,7 +58,7 @@ The accompanying **PowerPoint slides** explain:
 - Architecture for `right-without-spring`
 - Code examples side-by-side
 
-**Slides location:** `https://docs.google.com/presentation/d/1ToZN6CSHzbO4WTCOPCxQnwiWI9P6w8V1XlkNhFTEbG8/edit?usp=sharing`
+**Slides location:** `https://docs.google.com/presentation/d/1xp4H7_xklxIo9Kw-wn1JUHD0YqYNsZf-eoyHloRWUao/edit?usp=sharing`
 
 ---
 
