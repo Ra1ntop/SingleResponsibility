@@ -11,8 +11,6 @@ import com.ra1n.top.service.SenderService;
 
 import java.util.Map;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         TemplateRegistry registry = new TemplateRegistryImpl("com.ra1n.top");
@@ -22,7 +20,7 @@ public class Main {
         service.send(
                 NotificationType.WELCOME,
                 "andriy@example.com",
-                Map.of("name","Андрий", "login", "andriy")
+                Map.of("name","Andrii", "login", "andriy")
         );
     }
 }

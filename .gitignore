@@ -2,3 +2,6 @@
 /without-spring/.gradle/
 /without-spring/build/
 /without-spring/gradle/
+/wrong-without-spring/.gradle/
+/wrong-without-spring/gradle/
+/wrong-without-spring/build/
